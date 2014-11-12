@@ -24,7 +24,7 @@ var yesNoResponse = function(response) {
 // randomChoice function
 // returns a random rock, paper, scissors choice
 var randomChoice = function(response) {
-	
+	return "rock";
 };
 
 // Start the game
@@ -39,13 +39,13 @@ if (yesNoResponse(playComputer)) {
 
 	while (choice !== null && choice !== "") {
 		choice = prompt("Rock, paper, or scissors?");
+
+		// figure out the computers choice
+		var computersChoice = randomChoice();
+
+		// give back a response depending on computer choice
+		
 	}
-
-	// figure out the computers choice
-	var computersChoice = randomChoice();
-
-	// give back a response depending on computer choice
-
 } else {
 	alert("playing a human is not supported :)");
 }
