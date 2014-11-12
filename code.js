@@ -23,12 +23,15 @@ var playComputer = prompt("Do you want to play the computer?");
 
 // play the computer
 if (yesNoResponse(playComputer)) {
-	// loop forever
+	// loop forever (until they quit)
 	while(...) {
 
 	}
 
 // play another player
 } else {
+	// loop forever (until they quit)
+	while(...) {
 
+	}
 }
