@@ -5,6 +5,7 @@
 		- Auto correct invalid enterings:
 			i.e. enter rok instead of Rock
 		- Play the computer or another human
+		- A hidden cheat (like nuclear)
 */
 // Some functions
 
