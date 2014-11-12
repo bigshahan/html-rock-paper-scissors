@@ -23,7 +23,7 @@ var yesNoResponse = function(response) {
 
 // randomChoice function
 // returns a random rock, paper, scissors choice
-var randomChoice = function(response) {
+var randomChoice = function() {
 	return "rock";
 };
 
@@ -44,7 +44,7 @@ if (yesNoResponse(playComputer)) {
 		var computersChoice = randomChoice();
 
 		// give back a response depending on computer choice
-		
+
 	}
 } else {
 	alert("playing a human is not supported :)");
