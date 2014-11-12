@@ -14,7 +14,17 @@
 // returns true / false (boolean) depending on the response
 var yesNoResponse = function(response) {
 	// hint: use an if statement
+	if (response === "Yes" || response === "yes") {
+		return true;
+	} else {
+		return false;
+	}
+};
 
+// randomChoice function
+// returns a random rock, paper, scissors choice
+var randomChoice = function(response) {
+	
 };
 
 // Start the game
@@ -25,14 +35,17 @@ var playComputer = prompt("Do you want to play the computer?");
 // play the computer
 if (yesNoResponse(playComputer)) {
 	// loop forever (until they quit)
-	while(...) {
+	var choice = "none";
 
+	while (choice !== null && choice !== "") {
+		choice = prompt("Rock, paper, or scissors?");
 	}
 
-// play another player
+	// figure out the computers choice
+	var computersChoice = randomChoice();
+
+	// give back a response depending on computer choice
+
 } else {
-	// loop forever (until they quit)
-	while(...) {
-
-	}
+	alert("playing a human is not supported :)");
 }
